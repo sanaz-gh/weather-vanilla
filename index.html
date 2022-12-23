@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"
+  />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-container">
+        <div class="app-box">
+          <form id="search-form" class="mb-3">
+            <div class="row">
+              <div class="col-9">
+                <input
+                  type="search"
+                  placeholder="Type a city.."
+                  class="form-control"
+                  id="city-input"/>
+              </div>
+              <div class="col-2">
+                <input
+                  type="submit"
+                  value="Search"
+                  class="btn btn-primary w-100"/>
+              </div>
+            </div>
+          </form>
+          <div class="caption">
+            <h1 id="city"></h1>
+            <ul>
+              <li><span id="date"></span></li>
+              <li id="description"></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-8">
+              <div class="clearfix temperature">
+                <img src="" alt="img" id="icon" class="float-left" />
+                <div class="float-left">
+                  <span id="temperature"></span>
+                  <span class="units"></span>
+                    <a href="#" id="celsius-degree">°C</a> |
+                    <a href="#" id="fahrenheit-degree">°F</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="weather-box">
+            <div class="row">
+              <div class="card col-5">
+                <div class="title text-center mt-2">
+                  <h2> Sat 1</h2>
+                  <div class="body">
+                    <img src="images/sun.png" class="sun" alt="sun">
+                    <p> 20°</p>
+                    <p> 9°</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card col-5">
+                  <div class="title text-center mt-2">
+                      <h2> Sun 2</h2>
+                    <div class="body">
+                        <img src="images/sun.png" class="sun" alt="sun">
+                        <p>18°</p>
+                        <p>10°</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card col-5">
+                    <div class="title text-center mt-2">
+                      <h2> Mon 3</h2>
+                      <div class="body">
+                          <img src="images/clouds.png" class="cloud" alt="cloud">
+                          <p>16°</p>
+                          <p>8°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col-5">
+                    <div class="title text-center mt-2">
+                        <h2> Tue 4</h2>
+                      <div class="body">
+                          <img src="images/sun.png" class="sun" alt="sun">
+                          <p>19°</p>
+                          <p>7°</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card col-5">
+                    <div class="title text-center mt-2">
+                        <h2> Wed 5</h2>
+                      <div class="body">
+                          <img src="images/partly-cloud.png" class="cloud" alt="cloud">
+                          <p>18°</p>
+                          <p>9°</p>
+                      </div>
+                    </div>
+                  </div>
+      </div>
+    </div>
+    <a href="https://github.com/sanaz-gh/weather-app-1">Open-Source-Code on github</a>
+    <script src="src/app.js"></script>
+  </body>
+</html>

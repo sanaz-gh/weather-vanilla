@@ -1,0 +1,120 @@
+body {
+    font-family: 'PT Mono', monospace;
+}
+  
+h1 {
+    color: gray;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+  }
+
+ul {
+    list-style-type:none;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    display: inline;
+    margin-top: 10px;
+}
+  
+li {
+    list-style: none;
+    color: gray;
+    font-size: 16px;
+    font-weight: 100;
+}
+  
+li:first-letter {
+    text-transform: capitalize;
+}
+  
+.app-container {
+    max-width: 750px;
+    margin: 20px auto;
+}
+  
+.caption {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+  
+.temperature img {
+    margin-left: 20px;
+    height: 60px;
+    width: 60px; 
+}
+
+.temperature span {
+    font-size: 30px;
+    padding-left: 35px;
+}
+
+.temperature .units {
+    position: relative;
+    font-size: 16px;
+    top: -34px;
+}
+  
+.container {
+    width: 600px;
+    height: 590px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+input {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 30px;
+    border: none;
+    box-shadow: 5px 5px 5px 0px lightgrey;
+}
+
+a {
+text-decoration: none;
+}
+
+.col-5 {
+    width: 90px;
+    display: block;
+    margin: 10px auto;
+    padding-left: 5px;
+    box-shadow: 0px 0px 5px 0px lightgrey;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.col-5:hover {
+    box-shadow: 5px 5px 5px 0px lightgrey;
+}
+
+.sun {
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.cloud {
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+font-size: 18px;
+}
+
+p {
+    padding-top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
